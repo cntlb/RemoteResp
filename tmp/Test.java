@@ -6,14 +6,14 @@ package tmp;
  */
 public class Test {
     static {
-        System.out.println("tmp.Test: static block");
+        System.out.println("tmp.Test remote: static block");
     }
 
     public static void show(){
-        System.out.println("tmp.Test: public static void show()");
+        System.out.println("tmp.Test remote: public static void show()");
     }
 
     public void method(){
-        System.out.println("tmp.Test: public void method()");
+        System.out.println("tmp.Test remote: public void method()");
     }
 }
